@@ -1,0 +1,8 @@
+docker pull jenkins/jenkins
+docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins/jenkins
+
+http://localhost:8080/
+password : Shelly@1995
+
+# to run the docker compose file
+docker-compose up -d 
